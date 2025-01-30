@@ -11,7 +11,7 @@ func QuickSort(arr []int) []int {
 	return arr
 }
 
-func partition(arr []int) uint {
+func partition(arr []int) int {
 	lo, base := 0, len(arr)-1
 	for i := 0; i < base; i++ {
 		if arr[i] < arr[base] {
@@ -20,5 +20,5 @@ func partition(arr []int) uint {
 		}
 	}
 	arr[lo], arr[base] = arr[base], arr[lo]
-	return uint(lo)
+	return lo
 }
