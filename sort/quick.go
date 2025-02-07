@@ -1,7 +1,7 @@
 // Package sort contains algorithms that related to sorting.
 package sort
 
-// QuickSort would sort the arr in place with quick sort algoritm.
+// QuickSort would sort the arr in place with quick sort algorithm.
 func QuickSort(arr []int) []int {
 	if len(arr) > 1 {
 		pivot := partition(arr)
