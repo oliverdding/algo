@@ -1,4 +1,3 @@
-// Package sort contains algorithms that related to sorting.
 package sort
 
 // QuickSort would sort the arr in place with quick sort algorithm.
